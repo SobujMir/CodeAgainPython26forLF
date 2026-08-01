@@ -1,79 +1,125 @@
-#"""This is my first Python program."""
-# This is my first Python program
-#print(" Hello, World for Python! ")
-# print(5+3)
-# print("This is a simple Python Program for beginners")
-# print("Auto save is working fine.")
-# print("$" * 10)
-# print ("Hello, world missed parenthesis")
+print("Wellcome back to coding earth.")
+print("Wellcome to Consistency and Discipline")
+# print("Because those are the key to success in any field of life.")
+# print("Hello, World!")
 
-# X = 1
-# Y = 2
-# Sum = X + Y
+# import sys
+# print(sys.version)
+#Python programming Indentation is very important. It is used to define the blocks of code. Python uses indentation to indicate a block of code. The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount.
 
-# Sum = 30
+# if 5 > 2:
+# print("Five is greater than two!")# this code does not work because the print statement is not indented properly. It should be indented to indicate that it is part of the if statement block.
+    
+    
+# if 5 > 4:
+#     print("Five is greater than four!")
+#     print("This is a properly indented block of code.")
+    
+# # Python Statements
+# # Statements are instructions that a Python interpreter can execute. A statement is a logical line of code that performs a specific action. In Python, statements can be simple or compound.
+              
+# print("Python is Fun!")
+# # Python statements are executed one by one.
+# print("Python is easy to learn.")
+# print("Python is a powerful programming language.")
+# print("It is used for versatile applications.")
+# # Semicolons can be used to separate multiple statements on a single line.
+# print("Hello");print("World");print("Python is great!")
+# print('Single quotes are working')
 
-# print(Sum)
-# Result = Sum + 10
+# # Uese of end function in python
+# print("Hello", end=" ");print("World", end=" ")
+# print("Python is great!", end="\n")
+# # Use of Print function in python
+# print("Coding is Fun", 100 , "If you have passion about it")
+# print(5, 4*5)
+# print(" I am ", 25)
+# Variables in Python
+# X = 5
+# Y = "Python"
+# print(Y, "is", X, "time faster than other programming languages.")
 
-# print(Result)
+# V_variable = 10,
+# print(V_variable)  
 
-# print("Auto save is not working fine.\n\n")
+#Variable casting
 
-# print("Python run keboard shortcut is working fine.")
-# print("Python run File")
+# x = str(3)    # x will be '3'
+# y = int(3)    # y will be 3
+# z = float(3)  # z will be 3.0
+# print(x,"\n", y, z)
+# print(type(x), type(y), type(z))
+
+# X = "Sobuj"
+# Y = 'Sobuj'
+# print(X, Y, type(X), type(Y))
 
 
-# # I am starting fundemental of Python programming
-# # Student_count = 1000
-# # print(Student_count)
-# # print(type(Student_count))
-# # rating = 4.5
-# # print(rating)
-# # is_published = True
-# # print(is_published)
-# # bolian_value = False
 
-# # print(bolian_value)
+# Variable naming rules in Python which is very crucial for good coder.
 
-# Course_Name = "Python Programming"
-# print(Course_Name)
+# Person_name ="Sobuj Mir who is very poor in English"
+# Person_country = "Bangladesh in South Asia"
 
-# M = str(1)
-# N = int(2)
-# O = float(3)
-# print(M,"\n", N,"\n", O)
+# print(Person_name, Person_country)
 
-# print(type(M))
-# print(type(N))
-# print(type(O))
+# # Assignment of multiple values to multiple variables in Python
+# Name, Age, Nationality = "Jihad",10, "Bangladeshi"
+# print(Name, Age, Nationality)
 
-# One, Two, Three = 1, 2, 3
-# print(One, Two, Three)
+# x = 10
+# y = 14
+# sum = x + y
+# print(sum)
 
-# # Global variable
+# Global variables and Local variables in Python
+# X = "Global Variable"
+# def Ownfunc():
+#     y = "Local Variable"
+#     print("Inside the function:", y)
+#     print("Inside the function:", X)
+    
+# Ownfunc()
 
-# X_Global = "Awesome"
+#print("Outside the function:", y) # Here y does not exist
+
+# Globar keyword use
 
 # def myfunc():
-#     X_Global = "fantastic"
-#     print("Python is " + X_Global)
-          
-
+#     global x 
+#     x = "Global Variable"
+    
 # myfunc()
+# #x = "Local Variable"
+# print("Outside the function:", x) # Here x is global variable    
 
-# print("Python is " + X_Global)
+# # Data types in Python
 
-# X_Complex = 1j
-# print(X_Complex)
+# All_types =["str=String","int = number", "float = decimal value", "complex = complex value", "list, tuple,range","dict, set,frozenset","bool = True or False", "bytes, bytearray, memoryview", "NoneType = None"]
+# # this is called list in python
 
-# print(type(X_Complex))
+# print(All_types)
+# print(type(All_types))
 
-# print("I need to know about git and githum is very crucial for me to get Job")
 
-# print(" Why do I cannot maintain consistency?")
-# print("I need to finish git and github within week")
-print(" Wellcome to Consistency and Discipline")
-print("Because those are the key to success in any field of life.")
+# Python Numbers
+x,y,z = 5, 2.5, 1j
+print(type(x), type(y), type(z))
 
+# python convert types
+# x = float(x) # convert from int to float
+# y = int(y)   # convert from float to int        
+# z = complex(z) # convert from int to complex
+# print(x, y, z)
+# print(type(x), type(y), type(z))
+# m = 5+3j
+# print(m, type(m))
+n =int(y)
+print(n, type(n)) # this will give error because complex number cannot be converted to int or float
+# Random number generation in Python
+
+import random
+
+print(random.randrange(1, 100))
+# One object have data and behavior
 
