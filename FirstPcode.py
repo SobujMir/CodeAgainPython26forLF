@@ -128,5 +128,7 @@ import random
 x = random.randrange(70,99)
 if x > 80:
     print("You are lucky person because you got ", x)
+elif x > 90:
+    print("You are super lucky person because you got ", x)    
 else:
-    print("You are not lucky person because you got ", x)    
+    print("You are unlucky person because you got ", x)
