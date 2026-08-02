@@ -123,3 +123,10 @@ import random
 print(random.randrange(1, 100))
 # One object have data and behavior
 
+import random
+
+x = random.randrange(70,99)
+if x > 80:
+    print("You are lucky person because you got ", x)
+else:
+    print("You are not lucky person because you got ", x)    
