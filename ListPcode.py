@@ -260,22 +260,42 @@
 # Newlist.reverse()
 # print(Newlist)
 
-newlist = ['apple', 'banana', 'cherry', 'kiwi', 'mango']
-newlist_copy = newlist # this is not a proper way to copy a list
+# newlist = ['apple', 'banana', 'cherry', 'kiwi', 'mango']
+# newlist_copy = newlist # this is not a proper way to copy a list
 
-# print(newlist_copy)
+# # print(newlist_copy)
+# # newlist_copy[0] = 'orange'
+# # print(newlist)
+
+# # Actuall way to copy any list
+# newlist_copy = newlist.copy()
 # newlist_copy[0] = 'orange'
+# print(newlist_copy)
 # print(newlist)
+# newlist_another_way = list(newlist)
+# newlist_another_way[0] = 'grapes'   
+# print(newlist_another_way)
+# print(newlist)
+# newlist_final = newlist[:]
+# # newlist_final[0] = 'watermelon'
+# print(newlist_final)
 
-# Actuall way to copy any list
-newlist_copy = newlist.copy()
-newlist_copy[0] = 'orange'
-print(newlist_copy)
-print(newlist)
-newlist_another_way = list(newlist)
-newlist_another_way[0] = 'grapes'   
-print(newlist_another_way)
-print(newlist)
-newlist_final = newlist[:]
-newlist_final[0] = 'watermelon'
-print(newlist_final)
+list1  = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+list2  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list3  = list1 + list2 + list1
+print(list3)
+print(list3.count('a'))
+print(len(list3))
+print(isinstance(1, list))
+
+for i in list2:
+    list1.append(i)
+
+print(list1)
+
+list2.extend(list1)
+print(list2)
+print(len(list2))
+
+
+
